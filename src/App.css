@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+html {
+  font-size: 62.5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-nav a {
+  color: #ffffffff !important;
+  margin: 0 10px !important;
+  font-size: 1.8rem !important;
+  margin-top: 2rem !important;
+  font-size: 1.8rem !important;
+  font-weight: 500 !important;
+  line-height: 2.1rem !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+}
+.navbar-nav a:hover {
+  color: #ffffff !important;
+}
+.navbar-toggler {
+  color: #ffffffff !important ;
+  border: none !important;
+  outline: none !important;
+}
+.navbar-toggler .fa {
+  color: #ffffffff !important;
+  font-size: 26px !important;
+}
+.nav-link:hover {
+  font-weight: 600 !important;
+  border-bottom: 1px solid #ffffffff !important;
+  margin-bottom: -1px !important;
+}
+.nav__icons {
+  color: #ffb800 !important;
+}
+.navbar-brand {
+  color: #ffffff !important;
+
+  font-size: 1.8rem !important;
+
+  font-weight: 700 !important;
+  line-height: 2.1rem !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+  margin: 0;
+  background-color: #f8f8fa;
+}
+
+@media (max-width: 989px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (max-width: 577px) {
+  html {
+    font-size: 25%;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 20%;
+  }
+}
+@media (max-width: 372px) {
+  html {
+    font-size: 15%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.product__heading {
+  padding-left: 5rem;
+  margin-top: 4.5rem;
 }
+.product__heading > h5 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
 
-.App-link {
-  color: #61dafb;
+  color: #000000;
 }
+.product__heading > h6 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #b3b3b3;
+  padding-left: 2.5rem;
 }

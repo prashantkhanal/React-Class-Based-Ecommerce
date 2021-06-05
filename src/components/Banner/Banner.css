@@ -1,0 +1,88 @@
+.jumbotron {
+  background: rgba(0, 0, 0, 0.32)
+    url('https://st4.depositphotos.com/1017228/21668/i/600/depositphotos_216682476-stock-photo-image-excited-brunette-woman-20s.jpg');
+  height: 100vh;
+  background-size: cover;
+
+  color: #ffffffff;
+  border-radius: 0px !important;
+}
+
+.intro {
+  position: absolute;
+  bottom: 12rem;
+  right: 5rem;
+}
+
+@media (max-width: 989px) {
+  .intro {
+    position: absolute;
+    bottom: 11.2rem;
+    right: 22.6rem;
+  }
+}
+@media (max-width: 799px) {
+  .banner__heading {
+    position: absolute;
+
+    top: 9.2re;
+    right: 11rem;
+  }
+}
+@media (max-width: 788px) {
+  .banner__heading {
+    position: absolute;
+
+    top: 9.2rem;
+    right: 9.2rem;
+  }
+}
+
+@media (max-width: 654px) {
+  .banner__heading {
+    top: 5.6rem;
+    right: 10.6rem;
+  }
+}
+@media (max-width: 482px) {
+  .banner__heading {
+    top: 6rem;
+    right: 2.3rem;
+  }
+}
+
+.main__heading {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 4.7rem;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 1.2rem;
+}
+.main__subtitle {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #ffffff;
+}
+.main__search {
+  width: 45.3rem;
+  height: 6.2rem;
+  background: rgba(255, 255, 255, 0.54);
+  border-radius: 1.1rem;
+  outline: none;
+  border: none;
+}
+.main__search::placeholder {
+  padding-left: 2rem;
+  font-size: 1.6rem;
+
+  font-weight: 400;
+
+  color: #000000;
+}
+
+.main__search > text {
+  font-size: 2rem;
+}
